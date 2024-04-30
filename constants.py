@@ -1,0 +1,5 @@
+FILENAME = "coffee_run_wb.xlsx"
+GROUP_LIST = "Group List"
+MENU = "Menu"
+ABSENTEE_LIST = "Absentee List"
+INTRO_MESSAGE= "Welcome to to Coffee Run Payment Decider!"
