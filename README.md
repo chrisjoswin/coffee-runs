@@ -1,10 +1,7 @@
 # coffee-runs
 The Coffee Payment Decider is a command-line application built using Python and to help coworkers at the office decide who should pay for coffee each day. It allows users to create and manage a list of group members, their favorite coffee orders, and tracks who is responsible for paying for the coffee each day.
 
-## Quick Start
-1. Download main.exe file
-2. 
-## Pre-Requisites
+## Prerequisites
 If you choose to run this program without the executable you will need a few things. If you just want to run the executable then go to the next section
 1. Download Python3.x https://www.python.org/downloads/
 2. We will need to install openpyxl to use excel sheets. In terminal run   ```pip3 install openpyxl```
@@ -25,13 +22,17 @@ export AWS_SECRET_ACCESS_KEY=YOUR_SECRET_ACCESS_KEY
 
 ## Getting Application Started
 1. In terminal run ```git clone https://github.com/chrisjoswin/coffee-runs.git``` to 
-2. 
-3. run ```python3 main.py```
+2. then run ```cd coffee-runs```
+3. If you would like to run executable then do ```./dist/main``` OR without executable then step 4
+4. run ```python3 main.py```
 
 ## Assumptions
-1. Made some assumptions about input values. When prompted for Menu options, the input must be exactly as printed
-2. This is used for groups and not everyone will want coffee every time or will not be present at the office
+1. Made some assumptions about input values. When prompted for Menu options, the input must be exactly as printed in the menu
+2. This is used for groups and not everyone will want coffee every time or will not be present at the office always
 3. The price of any one coffee is not more that 5 dollars than any other coffee
+4. This is a scalable solution. It works for two or more people, but with a group size of 3 or more it makes more sense
+5. Not everyone can be absent from the group when you are trying to go on a coffee run
+6. Fairness means that you should not have to pay for everyone's coffee if you did not go get coffee as well, but you will pay for coffee at some later date in the near future if you missed your turn to pay.
 
 ## Author
 [Christopher Erattuparambil](https://github.com/chrisjoswin)
