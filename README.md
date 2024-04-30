@@ -19,6 +19,7 @@ export AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY_ID
 export AWS_SECRET_ACCESS_KEY=YOUR_SECRET_ACCESS_KEY
 ```
 6. then hit ```esc``` key and then type ```:wq``` to exit out of insert mode and save our changes (write quit)
+7. Then lastly, ```source ~/.bashrc``` for the changes to take place
 
 ## Getting Application Started
 1. In terminal run ```git clone https://github.com/chrisjoswin/coffee-runs.git``` to clone the repository
@@ -27,7 +28,7 @@ export AWS_SECRET_ACCESS_KEY=YOUR_SECRET_ACCESS_KEY
 4. run ```python3 main.py```
 
 ## Assumptions
-1. Made some assumptions about input values. When prompted for Menu options, the input must be exactly as printed in the menu
+1. Made some assumptions about input values. When prompted for Menu options, the input must be exactly as printed in the menu. When listing out absense please do in following format ````List out any absenses from the group today:(press enter if no absences)Chris, Ben, Sara```` or just ```...if no absences)Chris```
 2. This is used for groups and not everyone will want coffee every time or will not be present at the office always
 3. The price of any one coffee is not more that 5 dollars than any other coffee
 4. This is a scalable solution. It works for two or more people, but with a group size of 3 or more it makes more sense
