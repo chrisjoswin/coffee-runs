@@ -26,6 +26,7 @@ export AWS_SECRET_ACCESS_KEY=YOUR_SECRET_ACCESS_KEY
 2. then run ```cd coffee-runs``` to navigate into project
 3. If you would like to run executable then do ```./dist/main``` OR without executable then step 4
 4. run ```python3 main.py```
+5. The data is persistent in an excel sheet so you can go on multiple coffee runs per day or exit the application and come back the next day
 
 ## Assumptions
 1. Made some assumptions about input values. When prompted for Menu options, the input must be exactly as printed in the menu. When listing out absense please do in following format ````List out any absenses from the group today:(press enter if no absences)Chris, Ben, Sara```` or just ```...if no absences)Chris```
